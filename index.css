@@ -63,6 +63,16 @@ header {
   text-decoration: underline;
 }
 
+.pfp {
+  border-radius: 50%;
+  border: #fcf7f7 solid 2px;
+}
+
+.big {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -96,162 +106,6 @@ header {
           user-select: none;
 }
 
-#ComputerComponent-1 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-2 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-3 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-4 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-5 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-6 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-7 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-8 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-9 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-10 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-11 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
-#ComputerComponent-12 {
-  position: relative;
-  cursor: pointer;
-  margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
-  width: 64px;
-  height: 64px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-
 #ArchLogoComponent-0 {
   position: relative;
   cursor: pointer;
@@ -260,6 +114,32 @@ header {
   margin-bottom: 15px;
   width: 48px;
   height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-0 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-1 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -278,6 +158,32 @@ header {
           user-select: none;
 }
 
+#NeovimComponent-1 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-2 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-2 {
   position: relative;
   cursor: pointer;
@@ -286,6 +192,32 @@ header {
   margin-bottom: 15px;
   width: 48px;
   height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-2 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-3 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -304,6 +236,32 @@ header {
           user-select: none;
 }
 
+#NeovimComponent-3 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-4 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-4 {
   position: relative;
   cursor: pointer;
@@ -312,6 +270,32 @@ header {
   margin-bottom: 15px;
   width: 48px;
   height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-4 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-5 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -330,6 +314,32 @@ header {
           user-select: none;
 }
 
+#NeovimComponent-5 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-6 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-6 {
   position: relative;
   cursor: pointer;
@@ -338,6 +348,32 @@ header {
   margin-bottom: 15px;
   width: 48px;
   height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-6 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-7 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -356,6 +392,32 @@ header {
           user-select: none;
 }
 
+#NeovimComponent-7 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-8 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-8 {
   position: relative;
   cursor: pointer;
@@ -364,6 +426,32 @@ header {
   margin-bottom: 15px;
   width: 48px;
   height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-8 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-9 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -382,6 +470,32 @@ header {
           user-select: none;
 }
 
+#NeovimComponent-9 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-10 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-10 {
   position: relative;
   cursor: pointer;
@@ -390,6 +504,32 @@ header {
   margin-bottom: 15px;
   width: 48px;
   height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-10 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-11 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -408,7 +548,46 @@ header {
           user-select: none;
 }
 
+#NeovimComponent-11 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ComputerComponent-12 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-12 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#NeovimComponent-12 {
   position: relative;
   cursor: pointer;
   margin: 25px;
@@ -700,4 +879,26 @@ header {
   to {
     transform: rotate(360deg) scale(var(--scale-val));
   }
+}
+.appear-left {
+  transition: 1s;
+  color: transparent;
+  transform: translate(0px, 0px);
+}
+
+.appear-right {
+  transition: 1s;
+  color: transparent;
+  transform: translate(0px, 0px);
+}
+
+.text-appear:hover .appear-left {
+  transition: 1s;
+  color: #fcf7f7;
+  transform: translate(-50px, 0px);
+}
+.text-appear:hover .appear-right {
+  transition: 1s;
+  color: #fcf7f7;
+  transform: translate(50px, 0px);
 }/*# sourceMappingURL=index.css.map */

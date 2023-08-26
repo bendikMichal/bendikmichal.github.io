@@ -4,10 +4,10 @@ const initPage = async () => {
   for (let i = 0; i < MAXROTINSTANCES; i++) {
     const Computer = document.getElementById("ComputerComponent-" + i);
     getComponent("computer", Computer);
-  }
-  for (let i = 0; i < MAXROTINSTANCES; i++) {
-    const Computer = document.getElementById("ArchLogoComponent-" + i);
-    getComponent("archlogo", Computer);
+    const ArchLogo = document.getElementById("ArchLogoComponent-" + i);
+    getComponent("archlogo", ArchLogo);
+    const Neovim = document.getElementById("NeovimComponent-" + i);
+    getComponent("neovim", Neovim);
   }
 }
 

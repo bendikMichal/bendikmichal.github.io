@@ -80,8 +80,9 @@ header {
   
   left: auto;
   right: auto;
-  background-color: #000000b7;
-  backdrop-filter: blur(20px);
+  background-color: #000000d7;
+  // backdrop-filter: blur(20px);
+  // backdrop-filter: blur(2px);
 }
 
 .button {
@@ -205,7 +206,7 @@ header {
 .rotate-onscroll {
   position: relative;
 
-  image-rendering: pixelated;
+  // image-rendering: pixelated;
   transform: rotate(0deg) scale(var(--big-scale-val));
   // animation: big-rotate-animation 3s linear infinite;
 }

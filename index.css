@@ -78,9 +78,7 @@ header {
   overflow: hidden;
   left: auto;
   right: auto;
-  background-color: rgba(0, 0, 0, 0.7176470588);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  background-color: rgba(0, 0, 0, 0.8431372549);
 }
 
 .button {
@@ -1305,7 +1303,6 @@ header {
 }
 .rotate-onscroll {
   position: relative;
-  image-rendering: pixelated;
   transform: rotate(0deg) scale(var(--big-scale-val));
 }
 

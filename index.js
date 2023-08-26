@@ -1,9 +1,13 @@
-const MAXCOMPUTERS = 12;
+const MAXROTINSTANCES = 12;
 
 const initPage = async () => {
-  for (let i = 0; i < MAXCOMPUTERS; i++) {
+  for (let i = 0; i < MAXROTINSTANCES; i++) {
     const Computer = document.getElementById("ComputerComponent-" + i);
     getComponent("computer", Computer);
+  }
+  for (let i = 0; i < MAXROTINSTANCES; i++) {
+    const Computer = document.getElementById("ArchLogoComponent-" + i);
+    getComponent("archlogo", Computer);
   }
 }
 

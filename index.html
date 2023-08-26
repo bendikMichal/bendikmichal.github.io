@@ -5,23 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>notme's layer</title>
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round">
   <link rel="stylesheet" href="./index.css"> 
   <link rel="stylesheet" href="./data/computer/computer.css"> 
 </head>
 <body>
   <header>
     <div class="center-horizontal">
-      <div id="ComputerComponent-0"></div>
-      <h2 class="center-vertical">noTme</h2>
+      <!-- left -->
+      <div id="ComputerComponent-0" onclick="window.location='/'"></div>
+      <p class="center-vertical"><b>noTme</b></p>
+
+      <div class="spacer-vertical"></div>
+      <div class="spacer-vertical"></div>
+      <div class="spacer-vertical"></div>
+
+      <!-- site -->
+      <div class="center-vertical button">
+        <a class="center-vertical margin-left" href="/#about">about</a>
+      </div>
+      <!-- external -->
+      <div class="center-vertical button">
+        <img src="https://github.com/fluidicon.png" width="24" class="center-vertical" alt="Itch"/>
+        <a class="center-vertical margin-left" href="https://www.github.com/bendikMichal">code</a>
+      </div>
+      <div class="center-vertical button">
+        <img src="https://static.itch.io/images/itchio-textless-white.svg" width="24" class="center-vertical" alt="Itch"/>
+        <a class="center-vertical margin-left" href="https://notmedev.itch.io">games</a>
+      </div>
     </div>
   </header>
-  <div id="ComputerComponent-1"></div>
-  <div id="ComputerComponent-2"></div>
-  <div id="ComputerComponent-3"></div>
-  <div id="ComputerComponent-4"></div>
-  <div id="ComputerComponent-5"></div>
-  <div id="ComputerComponent-6"></div>
-  <div id="ComputerComponent-7"></div>
+
+  <div class="content-wrap">
+
+    <div class="spacer-horizontal"></div>
+
+    <div id="about">
+      <!-- spacers -->
+      <div class="spacer-horizontal"> </div>
+      <div class="spacer-horizontal"> </div>
+      <div class="spacer-horizontal"> </div>
+      <div class="spacer-horizontal"> </div>
+
+      <!-- about -->
+      <h3 class="center-horizontal">notme</h3>
+      <p class="center-horizontal">a developer</p>
+
+      <div class="row center-horizontal">
+        <div id="ComputerComponent-1" class="scaler"></div>
+        <div id="ArchLogoComponent-0" class="scaler"></div>
+      </div>
+    </div>
+
+    <div>100 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, ipsa obcaecati. Velit quibusdam eveniet sequi quae rem optio. Voluptatum animi quaerat quisquam quos rerum quis impedit blanditiis ipsam, et deleniti!</div>
+
+  </div>
+
+
   <script src="./index.js" ></script>
 </body>
 </html>

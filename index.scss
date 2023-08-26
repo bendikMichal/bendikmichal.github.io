@@ -1,8 +1,25 @@
 * {
+  // variables
   --scale-val: 1.7;
+
+  // font
+  font-family: 'M PLUS Rounded 1C';
+  // font-family: "Varela Round" monospace;
+  // font-family: 'Varela Round';
+
+  // colors
+  color: #fcf7f7;
+
+  // other
 }
+
 $layers-num: 64;
-$max-computers: 12;
+$max-rot-instances: 12;
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 body {
   margin: 0;
@@ -20,10 +37,53 @@ header {
 }
 
 
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+.center-vertical {
+  display: flex;
+  align-self: center;
+}
 
+.content-wrap {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.button {
+  margin-left: 8px;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+.button:hover {
+  text-decoration: underline;
+}
 
-@for $i from 0 through $max-computers {
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer-vertical {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.spacer-horizontal{
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height:1px;
+}
+
+.margin-left {
+  margin-left: 4px;
+}
+
+// repeating styles 
+@for $i from 0 through $max-rot-instances {
   #ComputerComponent-#{$i} {
     position: relative;
     cursor: pointer;
@@ -35,8 +95,18 @@ header {
     user-select: none;
   }
 }
-
-
+@for $i from 0 through $max-rot-instances {
+  #ArchLogoComponent-#{$i} {
+    position: relative;
+    cursor: pointer;
+    margin: 25px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    width: 48px;
+    height: 48px;
+    user-select: none;
+  }
+}
 
 @for $i from 0 through $layers-num {
   .i#{$i} {
@@ -44,16 +114,14 @@ header {
   }
 }
 
-.center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.center-vertical {
-  margin-top: auto;
-  margin-bottom: auto;
+
+.stack-layer {
+  position: absolute;
+  pointer-events: none;
+  margin: auto;
 }
 
+// animating
 .rotate {
   position: relative;
 

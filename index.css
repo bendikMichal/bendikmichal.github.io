@@ -1,5 +1,23 @@
 * {
   --scale-val: 1.7;
+  font-family: "M PLUS Rounded 1C";
+  color: #fcf7f7;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
 
 body {
@@ -15,6 +33,54 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
+}
+
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.center-vertical {
+  display: flex;
+  align-self: center;
+}
+
+.content-wrap {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  margin-left: 8px;
+  padding: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacer-vertical {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.spacer-horizontal {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 1px;
+}
+
+.margin-left {
+  margin-left: 4px;
 }
 
 #ComputerComponent-0 {
@@ -181,6 +247,175 @@ header {
   margin-bottom: 15px;
   width: 64px;
   height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-0 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-1 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-2 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-3 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-4 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-5 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-6 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-7 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-8 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-9 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-10 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-11 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#ArchLogoComponent-12 {
+  position: relative;
+  cursor: pointer;
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -446,15 +681,10 @@ header {
   top: calc(-64px * var(--scale-val));
 }
 
-.center-horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.center-vertical {
-  margin-top: auto;
-  margin-bottom: auto;
+.stack-layer {
+  position: absolute;
+  pointer-events: none;
+  margin: auto;
 }
 
 .rotate {

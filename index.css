@@ -1,11 +1,15 @@
 * {
   --scale-val: 1.7;
+  --primary-color: #fcf7f7;
+  --secondary-color: #4f2d42;
+  --tertiary-color: #f5d7b8;
+  --bg-color: #000;
   font-family: "M PLUS Rounded 1C";
-  color: #fcf7f7;
+  color: var(--primary-color);
 }
 
 hr {
-  color: rgba(252, 247, 247, 0.368627451);
+  color: var(--secondary-color);
 }
 
 a:link {
@@ -26,7 +30,7 @@ a:active {
 
 body {
   margin: 0;
-  background-color: #000;
+  background-color: var(--bg-color);
 }
 
 header {
@@ -65,11 +69,12 @@ header {
 
 .button:hover {
   text-decoration: underline;
+  text-decoration-color: var(--tertiary-color);
 }
 
 .pfp {
   border-radius: 50%;
-  border: #fcf7f7 solid 2px;
+  border: var(--secondary-color) solid 2px;
 }
 
 .big {
@@ -898,11 +903,11 @@ header {
 
 .text-appear:hover .appear-left {
   transition: 1s;
-  color: #fcf7f7;
+  color: var(--primary-color);
   transform: translate(-50px, 0px);
 }
 .text-appear:hover .appear-right {
   transition: 1s;
-  color: #fcf7f7;
+  color: var(--primary-color);
   transform: translate(50px, 0px);
 }/*# sourceMappingURL=index.css.map */

@@ -1,6 +1,10 @@
 * {
   // variables
   --scale-val: 1.7;
+  --primary-color: #fcf7f7;
+  --secondary-color: #4f2d42;
+  --tertiary-color: #f5d7b8;
+  --bg-color: #000;
 
   // font
   font-family: 'M PLUS Rounded 1C';
@@ -8,13 +12,14 @@
   // font-family: 'Varela Round';
 
   // colors
-  color: #fcf7f7;
+  color: var(--primary-color);
 
   // other
 }
 
 hr {
-  color: #fcf7f75e;
+  // color: #fcf7f75e;
+  color: var(--secondary-color);
 }
 
 $layers-num: 64;
@@ -27,7 +32,7 @@ a:active { text-decoration: none; }
 
 body {
   margin: 0;
-  background-color: #000;
+  background-color: var(--bg-color);
 }
 
 header {
@@ -64,11 +69,12 @@ header {
 }
 .button:hover {
   text-decoration: underline;
+  text-decoration-color: var(--tertiary-color);
 }
 
 .pfp {
   border-radius: 50%;
-  border: #fcf7f7 solid 2px;
+  border: var(--secondary-color) solid 2px;
 }
 
 .big {
@@ -176,12 +182,12 @@ header {
 
   .appear-left {
     transition: 1s;
-    color: #fcf7f7;
+    color: var(--primary-color);
     transform: translate(-50px, 0px);
   }
   .appear-right {
     transition: 1s;
-    color: #fcf7f7;
+    color: var(--primary-color);
     transform: translate(50px, 0px);
   }
 }

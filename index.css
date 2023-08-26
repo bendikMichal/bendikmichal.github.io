@@ -4,6 +4,10 @@
   color: #fcf7f7;
 }
 
+hr {
+  color: rgba(252, 247, 247, 0.368627451);
+}
+
 a:link {
   text-decoration: none;
 }

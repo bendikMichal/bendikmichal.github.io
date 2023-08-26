@@ -1,5 +1,6 @@
 * {
   --scale-val: 1.7;
+  --big-scale-val: 20;
   --primary-color: #fcf7f7;
   --secondary-color: #4f2d42;
   --tertiary-color: #f5d7b8;
@@ -34,7 +35,8 @@ body {
 }
 
 header {
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
   z-index: 999;
   color: #fff;
@@ -53,10 +55,32 @@ header {
   align-self: center;
 }
 
+.bg {
+  position: sticky !important;
+  z-index: -999;
+  top: 60%;
+  margin: auto !important;
+}
+
+.bg-wrap {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: fixed !important;
+  z-index: -999;
+}
+
 .content-wrap {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+  left: auto;
+  right: auto;
+  background-color: rgba(0, 0, 0, 0.7176470588);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
 }
 
 .button {
@@ -115,6 +139,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-0 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-0 {
   position: relative;
   cursor: pointer;
@@ -147,6 +181,16 @@ header {
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#BigComputerComponent-1 {
+  position: relative;
+  cursor: pointer;
   width: 64px;
   height: 64px;
   -webkit-user-select: none;
@@ -193,6 +237,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-2 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-2 {
   position: relative;
   cursor: pointer;
@@ -225,6 +279,16 @@ header {
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#BigComputerComponent-3 {
+  position: relative;
+  cursor: pointer;
   width: 64px;
   height: 64px;
   -webkit-user-select: none;
@@ -271,6 +335,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-4 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-4 {
   position: relative;
   cursor: pointer;
@@ -303,6 +377,16 @@ header {
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#BigComputerComponent-5 {
+  position: relative;
+  cursor: pointer;
   width: 64px;
   height: 64px;
   -webkit-user-select: none;
@@ -349,6 +433,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-6 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-6 {
   position: relative;
   cursor: pointer;
@@ -381,6 +475,16 @@ header {
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#BigComputerComponent-7 {
+  position: relative;
+  cursor: pointer;
   width: 64px;
   height: 64px;
   -webkit-user-select: none;
@@ -427,6 +531,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-8 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-8 {
   position: relative;
   cursor: pointer;
@@ -459,6 +573,16 @@ header {
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#BigComputerComponent-9 {
+  position: relative;
+  cursor: pointer;
   width: 64px;
   height: 64px;
   -webkit-user-select: none;
@@ -505,6 +629,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-10 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-10 {
   position: relative;
   cursor: pointer;
@@ -537,6 +671,16 @@ header {
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+#BigComputerComponent-11 {
+  position: relative;
+  cursor: pointer;
   width: 64px;
   height: 64px;
   -webkit-user-select: none;
@@ -583,6 +727,16 @@ header {
           user-select: none;
 }
 
+#BigComputerComponent-12 {
+  position: relative;
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 #ArchLogoComponent-12 {
   position: relative;
   cursor: pointer;
@@ -613,260 +767,520 @@ header {
   top: calc(-0px * var(--scale-val));
 }
 
+.I0 {
+  top: calc(-0px * var(--big-scale-val));
+}
+
 .i1 {
   top: calc(-1px * var(--scale-val));
+}
+
+.I1 {
+  top: calc(-1px * var(--big-scale-val));
 }
 
 .i2 {
   top: calc(-2px * var(--scale-val));
 }
 
+.I2 {
+  top: calc(-2px * var(--big-scale-val));
+}
+
 .i3 {
   top: calc(-3px * var(--scale-val));
+}
+
+.I3 {
+  top: calc(-3px * var(--big-scale-val));
 }
 
 .i4 {
   top: calc(-4px * var(--scale-val));
 }
 
+.I4 {
+  top: calc(-4px * var(--big-scale-val));
+}
+
 .i5 {
   top: calc(-5px * var(--scale-val));
+}
+
+.I5 {
+  top: calc(-5px * var(--big-scale-val));
 }
 
 .i6 {
   top: calc(-6px * var(--scale-val));
 }
 
+.I6 {
+  top: calc(-6px * var(--big-scale-val));
+}
+
 .i7 {
   top: calc(-7px * var(--scale-val));
+}
+
+.I7 {
+  top: calc(-7px * var(--big-scale-val));
 }
 
 .i8 {
   top: calc(-8px * var(--scale-val));
 }
 
+.I8 {
+  top: calc(-8px * var(--big-scale-val));
+}
+
 .i9 {
   top: calc(-9px * var(--scale-val));
+}
+
+.I9 {
+  top: calc(-9px * var(--big-scale-val));
 }
 
 .i10 {
   top: calc(-10px * var(--scale-val));
 }
 
+.I10 {
+  top: calc(-10px * var(--big-scale-val));
+}
+
 .i11 {
   top: calc(-11px * var(--scale-val));
+}
+
+.I11 {
+  top: calc(-11px * var(--big-scale-val));
 }
 
 .i12 {
   top: calc(-12px * var(--scale-val));
 }
 
+.I12 {
+  top: calc(-12px * var(--big-scale-val));
+}
+
 .i13 {
   top: calc(-13px * var(--scale-val));
+}
+
+.I13 {
+  top: calc(-13px * var(--big-scale-val));
 }
 
 .i14 {
   top: calc(-14px * var(--scale-val));
 }
 
+.I14 {
+  top: calc(-14px * var(--big-scale-val));
+}
+
 .i15 {
   top: calc(-15px * var(--scale-val));
+}
+
+.I15 {
+  top: calc(-15px * var(--big-scale-val));
 }
 
 .i16 {
   top: calc(-16px * var(--scale-val));
 }
 
+.I16 {
+  top: calc(-16px * var(--big-scale-val));
+}
+
 .i17 {
   top: calc(-17px * var(--scale-val));
+}
+
+.I17 {
+  top: calc(-17px * var(--big-scale-val));
 }
 
 .i18 {
   top: calc(-18px * var(--scale-val));
 }
 
+.I18 {
+  top: calc(-18px * var(--big-scale-val));
+}
+
 .i19 {
   top: calc(-19px * var(--scale-val));
+}
+
+.I19 {
+  top: calc(-19px * var(--big-scale-val));
 }
 
 .i20 {
   top: calc(-20px * var(--scale-val));
 }
 
+.I20 {
+  top: calc(-20px * var(--big-scale-val));
+}
+
 .i21 {
   top: calc(-21px * var(--scale-val));
+}
+
+.I21 {
+  top: calc(-21px * var(--big-scale-val));
 }
 
 .i22 {
   top: calc(-22px * var(--scale-val));
 }
 
+.I22 {
+  top: calc(-22px * var(--big-scale-val));
+}
+
 .i23 {
   top: calc(-23px * var(--scale-val));
+}
+
+.I23 {
+  top: calc(-23px * var(--big-scale-val));
 }
 
 .i24 {
   top: calc(-24px * var(--scale-val));
 }
 
+.I24 {
+  top: calc(-24px * var(--big-scale-val));
+}
+
 .i25 {
   top: calc(-25px * var(--scale-val));
+}
+
+.I25 {
+  top: calc(-25px * var(--big-scale-val));
 }
 
 .i26 {
   top: calc(-26px * var(--scale-val));
 }
 
+.I26 {
+  top: calc(-26px * var(--big-scale-val));
+}
+
 .i27 {
   top: calc(-27px * var(--scale-val));
+}
+
+.I27 {
+  top: calc(-27px * var(--big-scale-val));
 }
 
 .i28 {
   top: calc(-28px * var(--scale-val));
 }
 
+.I28 {
+  top: calc(-28px * var(--big-scale-val));
+}
+
 .i29 {
   top: calc(-29px * var(--scale-val));
+}
+
+.I29 {
+  top: calc(-29px * var(--big-scale-val));
 }
 
 .i30 {
   top: calc(-30px * var(--scale-val));
 }
 
+.I30 {
+  top: calc(-30px * var(--big-scale-val));
+}
+
 .i31 {
   top: calc(-31px * var(--scale-val));
+}
+
+.I31 {
+  top: calc(-31px * var(--big-scale-val));
 }
 
 .i32 {
   top: calc(-32px * var(--scale-val));
 }
 
+.I32 {
+  top: calc(-32px * var(--big-scale-val));
+}
+
 .i33 {
   top: calc(-33px * var(--scale-val));
+}
+
+.I33 {
+  top: calc(-33px * var(--big-scale-val));
 }
 
 .i34 {
   top: calc(-34px * var(--scale-val));
 }
 
+.I34 {
+  top: calc(-34px * var(--big-scale-val));
+}
+
 .i35 {
   top: calc(-35px * var(--scale-val));
+}
+
+.I35 {
+  top: calc(-35px * var(--big-scale-val));
 }
 
 .i36 {
   top: calc(-36px * var(--scale-val));
 }
 
+.I36 {
+  top: calc(-36px * var(--big-scale-val));
+}
+
 .i37 {
   top: calc(-37px * var(--scale-val));
+}
+
+.I37 {
+  top: calc(-37px * var(--big-scale-val));
 }
 
 .i38 {
   top: calc(-38px * var(--scale-val));
 }
 
+.I38 {
+  top: calc(-38px * var(--big-scale-val));
+}
+
 .i39 {
   top: calc(-39px * var(--scale-val));
+}
+
+.I39 {
+  top: calc(-39px * var(--big-scale-val));
 }
 
 .i40 {
   top: calc(-40px * var(--scale-val));
 }
 
+.I40 {
+  top: calc(-40px * var(--big-scale-val));
+}
+
 .i41 {
   top: calc(-41px * var(--scale-val));
+}
+
+.I41 {
+  top: calc(-41px * var(--big-scale-val));
 }
 
 .i42 {
   top: calc(-42px * var(--scale-val));
 }
 
+.I42 {
+  top: calc(-42px * var(--big-scale-val));
+}
+
 .i43 {
   top: calc(-43px * var(--scale-val));
+}
+
+.I43 {
+  top: calc(-43px * var(--big-scale-val));
 }
 
 .i44 {
   top: calc(-44px * var(--scale-val));
 }
 
+.I44 {
+  top: calc(-44px * var(--big-scale-val));
+}
+
 .i45 {
   top: calc(-45px * var(--scale-val));
+}
+
+.I45 {
+  top: calc(-45px * var(--big-scale-val));
 }
 
 .i46 {
   top: calc(-46px * var(--scale-val));
 }
 
+.I46 {
+  top: calc(-46px * var(--big-scale-val));
+}
+
 .i47 {
   top: calc(-47px * var(--scale-val));
+}
+
+.I47 {
+  top: calc(-47px * var(--big-scale-val));
 }
 
 .i48 {
   top: calc(-48px * var(--scale-val));
 }
 
+.I48 {
+  top: calc(-48px * var(--big-scale-val));
+}
+
 .i49 {
   top: calc(-49px * var(--scale-val));
+}
+
+.I49 {
+  top: calc(-49px * var(--big-scale-val));
 }
 
 .i50 {
   top: calc(-50px * var(--scale-val));
 }
 
+.I50 {
+  top: calc(-50px * var(--big-scale-val));
+}
+
 .i51 {
   top: calc(-51px * var(--scale-val));
+}
+
+.I51 {
+  top: calc(-51px * var(--big-scale-val));
 }
 
 .i52 {
   top: calc(-52px * var(--scale-val));
 }
 
+.I52 {
+  top: calc(-52px * var(--big-scale-val));
+}
+
 .i53 {
   top: calc(-53px * var(--scale-val));
+}
+
+.I53 {
+  top: calc(-53px * var(--big-scale-val));
 }
 
 .i54 {
   top: calc(-54px * var(--scale-val));
 }
 
+.I54 {
+  top: calc(-54px * var(--big-scale-val));
+}
+
 .i55 {
   top: calc(-55px * var(--scale-val));
+}
+
+.I55 {
+  top: calc(-55px * var(--big-scale-val));
 }
 
 .i56 {
   top: calc(-56px * var(--scale-val));
 }
 
+.I56 {
+  top: calc(-56px * var(--big-scale-val));
+}
+
 .i57 {
   top: calc(-57px * var(--scale-val));
+}
+
+.I57 {
+  top: calc(-57px * var(--big-scale-val));
 }
 
 .i58 {
   top: calc(-58px * var(--scale-val));
 }
 
+.I58 {
+  top: calc(-58px * var(--big-scale-val));
+}
+
 .i59 {
   top: calc(-59px * var(--scale-val));
+}
+
+.I59 {
+  top: calc(-59px * var(--big-scale-val));
 }
 
 .i60 {
   top: calc(-60px * var(--scale-val));
 }
 
+.I60 {
+  top: calc(-60px * var(--big-scale-val));
+}
+
 .i61 {
   top: calc(-61px * var(--scale-val));
+}
+
+.I61 {
+  top: calc(-61px * var(--big-scale-val));
 }
 
 .i62 {
   top: calc(-62px * var(--scale-val));
 }
 
+.I62 {
+  top: calc(-62px * var(--big-scale-val));
+}
+
 .i63 {
   top: calc(-63px * var(--scale-val));
 }
 
+.I63 {
+  top: calc(-63px * var(--big-scale-val));
+}
+
 .i64 {
   top: calc(-64px * var(--scale-val));
+}
+
+.I64 {
+  top: calc(-64px * var(--big-scale-val));
 }
 
 .stack-layer {
@@ -887,6 +1301,20 @@ header {
   }
   to {
     transform: rotate(360deg) scale(var(--scale-val));
+  }
+}
+.rotate-onscroll {
+  position: relative;
+  image-rendering: pixelated;
+  transform: rotate(0deg) scale(var(--big-scale-val));
+}
+
+@keyframes big-rotate-animation {
+  from {
+    transform: rotate(0deg) scale(var(--big-scale-val));
+  }
+  to {
+    transform: rotate(360deg) scale(var(--big-scale-val));
   }
 }
 .appear-left {

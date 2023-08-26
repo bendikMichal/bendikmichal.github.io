@@ -1,6 +1,7 @@
 * {
   // variables
   --scale-val: 1.7;
+  --big-scale-val: 20;
   --primary-color: #fcf7f7;
   --secondary-color: #4f2d42;
   --tertiary-color: #f5d7b8;
@@ -36,7 +37,8 @@ body {
 }
 
 header {
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 0;
   z-index: 999;
 
@@ -54,10 +56,32 @@ header {
   align-self: center;
 }
 
+.bg {
+  position: sticky !important;
+  z-index: -999;
+  top: 60%;
+  margin: auto !important;
+}
+.bg-wrap {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  
+  top: 0;
+  position: fixed !important;
+  z-index: -999;
+}
+
 .content-wrap {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+  
+  left: auto;
+  right: auto;
+  background-color: #000000b7;
+  backdrop-filter: blur(20px);
 }
 
 .button {
@@ -101,6 +125,9 @@ header {
   margin-left: 4px;
 }
 
+
+
+
 // repeating styles 
 @for $i from 0 through $max-rot-instances {
   #ComputerComponent-#{$i} {
@@ -109,6 +136,13 @@ header {
     margin: 25px;
     margin-top: 40px;
     margin-bottom: 15px;
+    width: 64px;
+    height: 64px;
+    user-select: none;
+  }
+  #BigComputerComponent-#{$i} {
+    position: relative;
+    cursor: pointer;
     width: 64px;
     height: 64px;
     user-select: none;
@@ -139,6 +173,9 @@ header {
   .i#{$i} {
     top: calc(-#{$i}px * var(--scale-val));
   }
+  .I#{$i} {
+    top: calc(-#{$i}px * var(--big-scale-val));
+  }
 }
 
 
@@ -162,6 +199,23 @@ header {
   } 
   to {
     transform: rotate(360deg) scale(var(--scale-val));
+  }
+}
+
+.rotate-onscroll {
+  position: relative;
+
+  image-rendering: pixelated;
+  transform: rotate(0deg) scale(var(--big-scale-val));
+  // animation: big-rotate-animation 3s linear infinite;
+}
+
+@keyframes big-rotate-animation {
+  from {
+    transform: rotate(0deg) scale(var(--big-scale-val));
+  } 
+  to {
+    transform: rotate(360deg) scale(var(--big-scale-val));
   }
 }
 

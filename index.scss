@@ -9,6 +9,7 @@
 
   // font
   font-family: 'M PLUS Rounded 1C';
+  text-rendering: optimizeLegibility;
   // font-family: "Varela Round" monospace;
   // font-family: 'Varela Round';
 
@@ -161,6 +162,8 @@ header {
   #NeovimComponent-#{$i} {
     position: relative;
     cursor: pointer;
+    // so it's centered better
+    left: 5px;
     margin: 25px;
     margin-top: 40px;
     margin-bottom: 15px;

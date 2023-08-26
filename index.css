@@ -6,6 +6,7 @@
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
   font-family: "M PLUS Rounded 1C";
+  text-rendering: optimizeLegibility;
   color: var(--primary-color);
 }
 
@@ -163,6 +164,7 @@ header {
 #NeovimComponent-0 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -212,6 +214,7 @@ header {
 #NeovimComponent-1 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -261,6 +264,7 @@ header {
 #NeovimComponent-2 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -310,6 +314,7 @@ header {
 #NeovimComponent-3 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -359,6 +364,7 @@ header {
 #NeovimComponent-4 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -408,6 +414,7 @@ header {
 #NeovimComponent-5 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -457,6 +464,7 @@ header {
 #NeovimComponent-6 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -506,6 +514,7 @@ header {
 #NeovimComponent-7 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -555,6 +564,7 @@ header {
 #NeovimComponent-8 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -604,6 +614,7 @@ header {
 #NeovimComponent-9 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -653,6 +664,7 @@ header {
 #NeovimComponent-10 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -702,6 +714,7 @@ header {
 #NeovimComponent-11 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -751,6 +764,7 @@ header {
 #NeovimComponent-12 {
   position: relative;
   cursor: pointer;
+  left: 5px;
   margin: 25px;
   margin-top: 40px;
   margin-bottom: 15px;

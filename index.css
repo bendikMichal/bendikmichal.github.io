@@ -1304,7 +1304,7 @@ header {
 .rotate {
   position: relative;
   image-rendering: pixelated;
-  animation: rotate-animation 3s linear infinite;
+  animation: rotate-animation 9s linear infinite;
 }
 
 @keyframes rotate-animation {

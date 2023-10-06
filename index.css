@@ -2,7 +2,7 @@
   --scale-val: 1.7;
   --big-scale-val: 15;
   --primary-color: #fcf7f7;
-  --secondary-color: #4f2d42;
+  --secondary-color: #ca93cf;
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
   font-family: "M PLUS Rounded 1C";
@@ -54,6 +54,7 @@ header {
 .center-vertical {
   display: flex;
   align-self: center;
+  justify-content: center;
 }
 
 .bg {
@@ -79,7 +80,7 @@ header {
   overflow: hidden;
   left: auto;
   right: auto;
-  background-color: rgba(0, 0, 0, 0.8431372549);
+  background-color: rgb(31, 12, 41);
 }
 
 .button {
@@ -92,7 +93,7 @@ header {
 
 .button:hover {
   text-decoration: underline;
-  text-decoration-color: var(--tertiary-color);
+  text-decoration-color: var(--secondary-color);
 }
 
 .pfp {
@@ -123,6 +124,11 @@ header {
 
 .margin-left {
   margin-left: 4px;
+}
+
+.white {
+  color: #fff;
+  background-color: #fff;
 }
 
 #ComputerComponent-0 {
@@ -1293,6 +1299,24 @@ header {
 
 .I64 {
   top: calc(-64px * var(--big-scale-val));
+}
+
+.static-logo {
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.arch-logo {
+  position: relative;
+  left: -13px;
+  top: -10px;
 }
 
 .stack-layer {

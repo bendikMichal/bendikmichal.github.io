@@ -3,7 +3,7 @@
   --scale-val: 1.7;
   --big-scale-val: 15;
   --primary-color: #fcf7f7;
-  --secondary-color: #4f2d42;
+  --secondary-color: #ca93cf;
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
 
@@ -55,6 +55,7 @@ header {
 .center-vertical {
   display: flex;
   align-self: center;
+  justify-content: center;
 }
 
 .bg {
@@ -81,7 +82,7 @@ header {
   
   left: auto;
   right: auto;
-  background-color: #000000d7;
+  background-color: rgb(31, 12, 41);
   // backdrop-filter: blur(20px);
   // backdrop-filter: blur(2px);
 }
@@ -95,7 +96,7 @@ header {
 }
 .button:hover {
   text-decoration: underline;
-  text-decoration-color: var(--tertiary-color);
+  text-decoration-color: var(--secondary-color);
 }
 
 .pfp {
@@ -127,7 +128,10 @@ header {
   margin-left: 4px;
 }
 
-
+.white {
+  color: #fff;
+  background-color: #fff;
+}
 
 
 // repeating styles 
@@ -182,6 +186,24 @@ header {
   }
 }
 
+.static-logo {
+  margin: 25px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  width: 48px;
+  height: auto;
+  user-select: none;
+  pointer-events: none;
+}
+
+.arch-logo {
+  position: relative;
+  left: -13px;
+  top: -10px;
+}
+// .neovim-logo {
+
+// }
 
 .stack-layer {
   position: absolute;
@@ -208,10 +230,7 @@ header {
 
 .rotate-onscroll {
   position: relative;
-
-  // image-rendering: pixelated;
   transform: rotate(0deg) scale(var(--big-scale-val));
-  // animation: big-rotate-animation 3s linear infinite;
 }
 
 @keyframes big-rotate-animation {
@@ -230,7 +249,7 @@ header {
   color: transparent;
   transform: translate(0px, 0px);
 }
-.appear-right{
+.appear-right {
   transition: 1s;
   color: transparent;
   transform: translate(0px, 0px);

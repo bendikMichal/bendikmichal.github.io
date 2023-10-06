@@ -19,6 +19,10 @@
   // other
 }
 
+::selection {
+  background-color: var(--secondary-color);
+}
+
 .monofont {
   font-family: monospace;
 }

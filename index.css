@@ -10,6 +10,14 @@
   color: var(--primary-color);
 }
 
+::-moz-selection {
+  background-color: var(--secondary-color);
+}
+
+::selection {
+  background-color: var(--secondary-color);
+}
+
 .monofont {
   font-family: monospace;
 }

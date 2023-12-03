@@ -7,6 +7,14 @@
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
 
+  --primary-color: #595b7d;
+  --secondary-color: #f0abab;
+  --tertiary-color: #fffcff;
+  --quad-color: #caaff564;
+  --bg-color: #e6e1f2;
+
+  --warn-color: #595b7dbf;
+
   // font
   font-family: 'M PLUS Rounded 1C';
   text-rendering: optimizeLegibility;
@@ -52,14 +60,55 @@ header {
   z-index: 999;
 
   color: #fff;
-  background-color: #00000033;
+  background-color: var(--quad-color);
   backdrop-filter: blur(6px);
 }
+
+.warning-bg {
+  transition: 0.5s;
+  background: var(--warn-color);
+  backdrop-filter: blur(6px);
+  top: 0;
+  position: fixed !important;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  overflow-y: hidden;
+}
+
+.warning-text {
+  user-select: none;
+  transition: 0.5s;
+  color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+}
+
+body:hover {
+  .warning-bg {
+    transition: 0.5s;
+    color: transparent;
+    background: transparent;
+    backdrop-filter: none;
+    top: -100vh;
+  }
+
+  .warning-text {
+    transition: 0.5s;
+    color: transparent;
+    background: transparent;
+    backdrop-filter: none;
+    top: -100vh;
+  }
+}
+
 
 .center-horizontal {
   display: flex;
   justify-content: center;
 }
+
+
 .center-vertical {
   display: flex;
   align-self: center;
@@ -90,7 +139,7 @@ header {
   
   left: auto;
   right: auto;
-  background-color: rgb(31, 12, 41);
+  background-color: var(--tertiary-color);
   // backdrop-filter: blur(20px);
   // backdrop-filter: blur(2px);
 }
@@ -196,8 +245,8 @@ header {
 
 .static-logo {
   margin: 25px;
-  margin-top: 40px;
-  margin-bottom: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 48px;
   height: auto;
   user-select: none;
@@ -205,10 +254,10 @@ header {
 }
 
 .outline {
-  filter: drop-shadow(2px 0px 0 #fff) 
-          drop-shadow(-2px 0px 0 #fff)
-          drop-shadow(0px 2px 0 #fff)
-          drop-shadow(0px -2px 0 #fff);
+  filter: drop-shadow(2px 0px 0 var(--secondary-color)) 
+          drop-shadow(-2px 0px 0 var(--secondary-color))
+          drop-shadow(0px 2px 0 var(--secondary-color))
+          drop-shadow(0px -2px 0 var(--secondary-color));
 }
 
 .stack-layer {
@@ -251,14 +300,21 @@ header {
 
 
 .appear-left {
+  user-select: none;
   transition: 1s;
   color: transparent;
   transform: translate(0px, 0px);
 }
 .appear-right {
+  user-select: none;
   transition: 1s;
   color: transparent;
   transform: translate(0px, 0px);
+}
+
+.text-appear {
+  margin-top: 40px;
+  margin-top: 40px;
 }
 
 .text-appear:hover {

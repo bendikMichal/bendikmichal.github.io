@@ -7,11 +7,29 @@
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
 
-  --primary-color: #595b7d;
-  --secondary-color: #f0abab;
-  --tertiary-color: #fffcff;
-  --quad-color: #caaff564;
-  --bg-color: #e6e1f2;
+  // --primary-color: #595b7d;
+  // --secondary-color: #f0abab;
+  // --tertiary-color: #fffcff;
+  // --quad-color: #caaff564;
+  // --bg-color: #e6e1f2;
+
+  // --primary-color: #fff;
+  // --secondary-color: #c1c8e4; // outline
+  // --tertiary-color: #84ceeb; // actual content bg
+  // --quad-color: #5680e964; // navbar bg
+  // --penta-color: #84ebe1; // 
+  // --bg-color: #8860D0; // body bg, warning text
+
+  // --primary-color: #fff;
+  --secondary-color: #dbc5dd; // outline
+  --tertiary-color: #080808; // actual content bg
+  // --quad-color: #000; // navbar bg
+  // --penta-color: #000; // 
+  // --bg-color: #000; // body bg, warning text
+  --penta-color: #000;
+
+  --tertiary-color-tran: #84ceeb33; // button
+  --penta-color-tran: #84ebe133; // button
 
   --warn-color: #595b7dbf;
 
@@ -50,7 +68,11 @@ a:active { text-decoration: none; }
 
 body {
   margin: 0;
-  background-color: var(--bg-color);
+  // background: radial-gradient(ellipse at top, var(--bg-color), transparent),
+  //             radial-gradient(ellipse at left, var(--penta-color), transparent),
+  //             radial-gradient(ellipse at right, var(--tertiary-color), transparent),
+  //             radial-gradient(ellipse at bottom, var(--tertiary-color), transparent);
+  background-color: var(--tertiary-color);
 }
 
 header {
@@ -79,7 +101,7 @@ header {
 .warning-text {
   user-select: none;
   transition: 0.5s;
-  color: var(--bg-color);
+  color: var(--primary-color);
   width: 100vw;
   height: 100vh;
 }
@@ -139,9 +161,14 @@ body:hover {
   
   left: auto;
   right: auto;
-  background-color: var(--tertiary-color);
+  background-color: var(--bg-color);
+  // background: radial-gradient(ellipse at top, var(--tertiary-color), transparent),
+  //             radial-gradient(ellipse at left, var(--penta-color), transparent),
+  //             radial-gradient(ellipse at right, var(--bg-color), transparent),
+  //             radial-gradient(ellipse at bottom, var(--bg-color), transparent);
+
   // backdrop-filter: blur(20px);
-  // backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
 .button {
@@ -150,10 +177,18 @@ body:hover {
   padding-left: 8px;
   padding-right: 8px;
   cursor: pointer;
+  background-color: transparent;
+  // background: 
+  //             radial-gradient(ellipse at left, var(---color-tran), transparent),
+  //             radial-gradient(ellipse at right, var(--penta-color-tran), transparent);
+  border-radius: 5px;
+  backdrop-filter: blur(6px);
+  box-shadow: 2px 2px 5px #595b7d51;
 }
 .button:hover {
   text-decoration: underline;
   text-decoration-color: var(--secondary-color);
+  transform: translateY(-2px);
 }
 
 .pfp {

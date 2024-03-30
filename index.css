@@ -5,11 +5,11 @@
   --secondary-color: #ca93cf;
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
-  --primary-color: #595b7d;
-  --secondary-color: #f0abab;
-  --tertiary-color: #fffcff;
-  --quad-color: #caaff564;
-  --bg-color: #e6e1f2;
+  --secondary-color: #dbc5dd;
+  --tertiary-color: #080808;
+  --penta-color: #000;
+  --tertiary-color-tran: #84ceeb33;
+  --penta-color-tran: #84ebe133;
   --warn-color: #595b7dbf;
   font-family: "M PLUS Rounded 1C";
   text-rendering: optimizeLegibility;
@@ -50,7 +50,7 @@ a:active {
 
 body {
   margin: 0;
-  background-color: var(--bg-color);
+  background-color: var(--tertiary-color);
 }
 
 header {
@@ -82,7 +82,7 @@ header {
      -moz-user-select: none;
           user-select: none;
   transition: 0.5s;
-  color: var(--bg-color);
+  color: var(--primary-color);
   width: 100vw;
   height: 100vh;
 }
@@ -138,7 +138,9 @@ body:hover .warning-text {
   overflow: hidden;
   left: auto;
   right: auto;
-  background-color: var(--tertiary-color);
+  background-color: var(--bg-color);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 
 .button {
@@ -147,11 +149,17 @@ body:hover .warning-text {
   padding-left: 8px;
   padding-right: 8px;
   cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  box-shadow: 2px 2px 5px rgba(89, 91, 125, 0.3176470588);
 }
 
 .button:hover {
   text-decoration: underline;
   text-decoration-color: var(--secondary-color);
+  transform: translateY(-2px);
 }
 
 .pfp {

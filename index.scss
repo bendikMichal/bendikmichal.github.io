@@ -91,6 +91,8 @@ header {
   width: 100vw;
   top: 0;
   z-index: 999;
+  min-height: 7rem;
+  align-content: center;
 
   color: #fff;
   background-color: var(--quad-color);

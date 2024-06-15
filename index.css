@@ -53,6 +53,15 @@ a:active {
   text-decoration: none;
 }
 
+a.link {
+  color: var(--secondary-color);
+}
+
+a:hover.link {
+  text-decoration-color: var(--secondary-color);
+  text-decoration: underline;
+}
+
 body {
   margin: 0;
   background-color: var(--bg-color);
@@ -184,6 +193,12 @@ body:hover .warning-text {
 .spacer-vertical {
   margin-left: 16px;
   margin-right: 16px;
+}
+
+.spacer-horizontal-small {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 1px;
 }
 
 .spacer-horizontal {

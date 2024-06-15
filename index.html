@@ -106,12 +106,65 @@
 
       <h1 class="article">Blog</h1>
       <hr />
-      <h3 class="article">Mainly about random stuff I am doing</h3>
+      <h3 class="article">Mainly about random stuff I am doing / know</h3>
       <div class="spacer-horizontal"></div>
 
+
+      <h2 class="article center-horizontal">Rectangle w/ circle collision detection</h2>
+      <div class="spacer-horizontal-small"></div>
+      <!-- <hr /> -->
       <p class="article" >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae pariatur numquam dolorem ab adipisci eveniet beatae sapiente tenetur natus doloribus facere nostrum inventore necessitatibus, esse odit repudiandae est quas enim.
+        There are two most well known collision detection algorithms:
+        <a class="link" href="https://en.wikipedia.org/wiki/Minimum_bounding_box#Axis-aligned_minimum_bounding_box"> AABB collision detection</a> 
+        (between two rectangles) and circle collision detection.
       </p>
+      <p class="article" >
+        However, the main topic on hand is the collsion detection between circle and rectangle.
+      </p>
+      <p class="article" >
+        How can one know (programmatically) whether in the image below the rectangle and the circle have collided?
+      </p>
+      <div class="center-horizontal">
+        <img src="data/blog/cr_col_detect/1.png" />
+      </div>
+      <p class="article" >
+        Probably the first and the easiest solution would be to construct a square around the circle. 
+        While this approach would "mostly" work, it would come at the cost of accuracy in the corners.
+      </p>
+      <div class="center-horizontal">
+        <img src="data/blog/cr_col_detect/2.png" />
+      </div>
+      <p class="article" >
+        The most correct approach would be to also construct a circle around the rectangle.
+        Now, if the red and white circle collide AND at the same time the white rectangle
+        collides with the red one, we can say that the white rectangle collides with the white circle
+      </p>
+      <div class="center-horizontal">
+        <img src="data/blog/cr_col_detect/3.png" />
+      </div>
+
+      <p class="article center-horizontal">...</p>
+      <div class="spacer-horizontal"></div>
+      <div class="spacer-horizontal"></div>
+
+      <h2 class="article center-horizontal">Translating 3D point to 2D using trigonometry</h2>
+      <div class="spacer-horizontal-small"></div>
+      <!-- <hr /> -->
+      <p class="article" >
+        There are many ways to go about translating 3D point to 2D space.
+        One way would be by using 
+        <a class="link" href="https://en.wikipedia.org/wiki/Camera_matrix"> camera matrix</a>.
+      </p>
+      <p class="article" >
+        However I prefer a different method. A method that uses Similar triangles and 
+        <a class="link" href="https://en.wikipedia.org/wiki/Trigonometry">trigonometry</a>.
+      </p>
+
+      <h3 class="article center-horizontal" >
+        Under construction
+      </h3>
+
+      <p class="article center-horizontal">...</p>
     </div>
 
     <div class="spacer-horizontal-large"></div>

@@ -77,6 +77,15 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
+a.link {
+  color: var(--secondary-color);
+}
+
+a:hover.link {
+  text-decoration-color: var(--secondary-color);
+  text-decoration: underline;
+}
+
 body {
   margin: 0;
   // background: radial-gradient(ellipse at top, var(--bg-color), transparent),
@@ -225,6 +234,12 @@ body:hover {
   margin-left: 16px;
   margin-right: 16px;
 }
+.spacer-horizontal-small {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height:1px;
+}
+
 .spacer-horizontal {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -385,3 +400,4 @@ body:hover {
     transform: translate(50px, 0px);
   }
 }
+

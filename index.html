@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="./data/computer/computer.css"> 
 </head>
 <body>
-  <div class="warning-bg">
+  <!-- <div class="warning-bg">
     <div class="warning-text monospace big center-horizontal center-vertical">
       Protect your privacy >:D
     </div>
-  </div>
+  <div> -->
 
   <header>
     <div class="center-horizontal">
@@ -35,6 +35,10 @@
         <a class="center-vertical margin-left" href="/#tech">tech</a>
       </div>
 
+      <div class="center-vertical button">
+        <a class="center-vertical margin-left" href="/#blog">blog</a>
+      </div>
+
       <!-- external -->
       <div class="center-vertical button">
         <!-- <img src="https://github.com/fluidicon.png" width="24" class="center-vertical" alt="Itch"/> -->
@@ -51,16 +55,13 @@
   <div class="bg-wrap">
     <!-- <div id="BigComputerComponent-0" class="bg"></div> -->
   </div>
+
   <div class="content-wrap">
 
-    <div class="spacer-horizontal"></div>
 
     <div id="about">
       <!-- spacers -->
-      <div class="spacer-horizontal"> </div>
-      <div class="spacer-horizontal"> </div>
-      <div class="spacer-horizontal"> </div>
-      <div class="spacer-horizontal"> </div>
+      <div class="spacer-horizontal-large"> </div>
 
       <!-- about -->
       <div class="center-horizontal">
@@ -69,16 +70,12 @@
       <h3 class="center-horizontal mono">noTme</h3>
       <p class="center-horizontal">a programmer</p>
     </div>
-    <!-- <hr> -->
 
     <div id="tech">
-      <!-- spacers -->
-      <!-- <div class="spacer-horizontal"> </div>
-      <div class="spacer-horizontal"> </div> -->
-      <div class="spacer-horizontal"> </div>
-      <div class="spacer-horizontal"> </div>
+      <div class="spacer-horizontal-large"> </div>
 
-      <h1 class="center-horizontal">What I use</h1>
+      <h1 class="article">What I use</h1>
+      <hr />
 
       <!-- tech -->
       <div class="row center-horizontal text-appear">
@@ -91,31 +88,37 @@
         <img class="static-logo outline" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neovim-mark.svg/492px-Neovim-mark.svg.png"></img>
         <div class="appear-right big center-vertical monofont">vim</div>
       </div>
+
+      <div class="spacer-horizontal"></div>
+      <h2 class="article">Q: Why neovim instead of VScode?</h2>
+      <p class="article">I mainly use neovim for the vim-motions, although I am aware that almost all editors provide some kind of vim-mode, neovim generally has incomparable experience, whether be it speed and vim plugin management.</p>
+      <p class="article">VScode tends to be a memory hog and users can experience slow-down sometimes.</p>
+
+      <div class="spacer-horizontal"></div>
+      <h2 class="article">Q: Theme?</h2>
+      <p class="article">Mainly catpuccin and everforest</p>
+
     </div>
 
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
-    <div class="spacer-horizontal"></div>
+    <div id="blog">
+      <div class="spacer-horizontal-large"></div>
+
+      <h1 class="article">Blog</h1>
+      <hr />
+      <h3 class="article">Mainly about random stuff I am doing</h3>
+      <div class="spacer-horizontal"></div>
+
+      <p class="article" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae pariatur numquam dolorem ab adipisci eveniet beatae sapiente tenetur natus doloribus facere nostrum inventore necessitatibus, esse odit repudiandae est quas enim.
+      </p>
+    </div>
+
+    <div class="spacer-horizontal-large"></div>
+    <div class="spacer-horizontal-large"></div>
 
     <p class="center-horizontal">uwu</p>
 
   </div>
-
 
   <script src="./index.js" ></script>
 </body>

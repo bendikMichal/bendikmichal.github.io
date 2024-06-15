@@ -1,17 +1,17 @@
 * {
   --scale-val: 1.7;
   --big-scale-val: 15;
-  --primary-color: #fcf7f7;
+  --primary-color: #e1e1e1;
   --secondary-color: #ca93cf;
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
-  --secondary-color: #dbc5dd;
+  --secondary-color: #7b8ac6;
   --tertiary-color: #080808;
   --penta-color: #000;
   --tertiary-color-tran: #84ceeb33;
   --penta-color-tran: #84ebe133;
   --warn-color: #595b7dbf;
-  font-family: "M PLUS Rounded 1C";
+  font-family: "Courier New", Courier, monospace;
   text-rendering: optimizeLegibility;
   color: var(--primary-color);
 }
@@ -26,6 +26,11 @@
 
 .monofont {
   font-family: monospace;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
 }
 
 hr {
@@ -50,7 +55,7 @@ a:active {
 
 body {
   margin: 0;
-  background-color: var(--tertiary-color);
+  background-color: var(--bg-color);
 }
 
 header {
@@ -66,7 +71,6 @@ header {
 
 .warning-bg {
   transition: 0.5s;
-  background: var(--warn-color);
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
   top: 0;
@@ -132,24 +136,22 @@ body:hover .warning-text {
 }
 
 .content-wrap {
-  width: 80vw;
+  width: 60vw;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
   left: auto;
   right: auto;
   background-color: var(--bg-color);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
 }
 
 .button {
   margin-left: 8px;
-  padding: 4px;
+  padding: 8px;
   padding-left: 8px;
   padding-right: 8px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: rgba(177, 177, 177, 0.2352941176);
   border-radius: 5px;
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
@@ -185,6 +187,12 @@ body:hover .warning-text {
 .spacer-horizontal {
   margin-top: 32px;
   margin-bottom: 32px;
+  height: 1px;
+}
+
+.spacer-horizontal-large {
+  margin-top: 128px;
+  margin-bottom: 128px;
   height: 1px;
 }
 
@@ -1380,7 +1388,7 @@ body:hover .warning-text {
 }
 
 .outline {
-  filter: drop-shadow(2px 0px 0 var(--secondary-color)) drop-shadow(-2px 0px 0 var(--secondary-color)) drop-shadow(0px 2px 0 var(--secondary-color)) drop-shadow(0px -2px 0 var(--secondary-color));
+  filter: drop-shadow(2px 0px 0 var(--primary-color)) drop-shadow(-2px 0px 0 var(--primary-color)) drop-shadow(0px 2px 0 var(--primary-color)) drop-shadow(0px -2px 0 var(--primary-color));
 }
 
 .stack-layer {

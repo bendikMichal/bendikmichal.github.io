@@ -2,7 +2,7 @@
   // variables
   --scale-val: 1.7;
   --big-scale-val: 15;
-  --primary-color: #fcf7f7;
+  --primary-color: #e1e1e1;
   --secondary-color: #ca93cf;
   --tertiary-color: #f5d7b8;
   --bg-color: #000;
@@ -21,7 +21,8 @@
   // --bg-color: #8860D0; // body bg, warning text
 
   // --primary-color: #fff;
-  --secondary-color: #dbc5dd; // outline
+  // --secondary-color: #dbc5dd; // outline
+  --secondary-color: #7b8ac6; // outline
   --tertiary-color: #080808; // actual content bg
   // --quad-color: #000; // navbar bg
   // --penta-color: #000; // 
@@ -34,7 +35,8 @@
   --warn-color: #595b7dbf;
 
   // font
-  font-family: 'M PLUS Rounded 1C';
+  // font-family: 'M PLUS Rounded 1C', Georgia; // Georgia is pretty for articles
+  font-family: "Courier New", Courier, monospace; 
   text-rendering: optimizeLegibility;
   // font-family: "Varela Round" monospace;
   // font-family: 'Varela Round';
@@ -49,8 +51,17 @@
   background-color: var(--secondary-color);
 }
 
+.article {
+  // font-family: Georgia;
+}
+
 .monofont {
   font-family: monospace;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
 }
 
 hr {
@@ -72,7 +83,7 @@ body {
   //             radial-gradient(ellipse at left, var(--penta-color), transparent),
   //             radial-gradient(ellipse at right, var(--tertiary-color), transparent),
   //             radial-gradient(ellipse at bottom, var(--tertiary-color), transparent);
-  background-color: var(--tertiary-color);
+  background-color: var(--bg-color);
 }
 
 header {
@@ -88,7 +99,7 @@ header {
 
 .warning-bg {
   transition: 0.5s;
-  background: var(--warn-color);
+  // background: var(--warn-color);
   backdrop-filter: blur(6px);
   top: 0;
   position: fixed !important;
@@ -154,7 +165,7 @@ body:hover {
 }
 
 .content-wrap {
-  width: 80vw;
+  width: 60vw;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -168,16 +179,18 @@ body:hover {
   //             radial-gradient(ellipse at bottom, var(--bg-color), transparent);
 
   // backdrop-filter: blur(20px);
-  backdrop-filter: blur(2px);
+  // backdrop-filter: blur(2px);
 }
 
 .button {
   margin-left: 8px;
-  padding: 4px;
+  padding: 8px;
   padding-left: 8px;
   padding-right: 8px;
   cursor: pointer;
-  background-color: transparent;
+  // background-color: transparent;
+  background-color: #b1b1b13c;
+
   // background: 
   //             radial-gradient(ellipse at left, var(---color-tran), transparent),
   //             radial-gradient(ellipse at right, var(--penta-color-tran), transparent);
@@ -210,9 +223,14 @@ body:hover {
   margin-left: 16px;
   margin-right: 16px;
 }
-.spacer-horizontal{
+.spacer-horizontal {
   margin-top: 32px;
   margin-bottom: 32px;
+  height:1px;
+}
+.spacer-horizontal-large {
+  margin-top: 128px;
+  margin-bottom: 128px;
   height:1px;
 }
 
@@ -289,10 +307,10 @@ body:hover {
 }
 
 .outline {
-  filter: drop-shadow(2px 0px 0 var(--secondary-color)) 
-          drop-shadow(-2px 0px 0 var(--secondary-color))
-          drop-shadow(0px 2px 0 var(--secondary-color))
-          drop-shadow(0px -2px 0 var(--secondary-color));
+  filter: drop-shadow(2px 0px 0 var(--primary-color)) 
+          drop-shadow(-2px 0px 0 var(--primary-color))
+          drop-shadow(0px 2px 0 var(--primary-color))
+          drop-shadow(0px -2px 0 var(--primary-color));
 }
 
 .stack-layer {
